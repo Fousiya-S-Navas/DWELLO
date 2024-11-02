@@ -250,8 +250,8 @@ font-family: "montserratsemibold";
 }
 
 #spotlight .wrapper .container .right img { 
-	height: 1050px;
-	width: 1050px;
+	height: 100vh;
+	width: 100%;
 	
 }
 #middle { 
@@ -840,6 +840,35 @@ footer .wrapper  ul li h5 img{
 
 	margin-right: 12px;
 }
+@media all and (max-width:1696px){
+	
+	#spotlight .wrapper .container .right img{
+		height: 100vh;
+		width: 100%;
+	}
+	
+}
+@media all and (max-width:1440px){
+	#testimonial .wrapper .container .right{
+		width: 80%;
+	}
+	#middle .wrapper .container{
+		width: 90%;
+	}
+	#middle .wrapper .container button{
+		width: 30%;
+		font-size: 15px;
+	}
+	#middle .wrapper .container .button{
+		width: 20%;
+	}
+	#middle .wrapper .container button img{
+		margin-left: 53%;
+	}
+}
+
+	
+
 
 
 
@@ -918,6 +947,35 @@ margin-left: 25%;
 	width: 30%;
 }
 }
+@media all and (max-width:1196px){
+#spotlight .wrapper .container .left h1{
+ font-size: 50px;
+ line-height: 4rem;
+}
+}
+@media all and (max-width:1188px){
+	#middle .wrapper .container button{
+		width: 35%;
+	}
+
+}
+@media all and (max-width:1164px){
+	#middle .wrapper .container button{
+		width: 40%;
+	}
+}
+@media all and (max-width:1147px){
+	#middle .wrapper .container button{
+		width: 45%;
+	}
+}
+@media all and (max-width:1133px){
+	#middle .wrapper .container button{
+		width: 50%;
+	}
+}
+
+
 @media all and (max-width:1380px){
 
 
@@ -964,6 +1022,22 @@ margin-left: 25%;
 		#testimonial .wrapper .container .right ul li h5{
 			font-size: 12px;
 		}
+		#home .wrapper header .container .right .container ul li{
+			margin-left: 0;
+			margin-right: 20px;
+		}
+		
+		#home .wrapper header .container .middle .item ul li{
+			margin-right: 10%;
+		}
+	 }
+
+
+
+	 @media all and (max-width:1282px){
+		#testimonial .wrapper .container .right {
+			width: 100%;
+		}
 	 }
 
 
@@ -978,6 +1052,9 @@ margin-left: 25%;
 		background: #ddc7bb;
 		font-family: 'montserratsemibold';
 }
+#home .wrapper header .container .right .container ul li{
+	margin-left: 10px;
+}
 #spotlight .wrapper .container .left h1{
 	margin-top: 10%;
 }
@@ -985,8 +1062,8 @@ margin-left: 25%;
 	display: none;
 }
 #spotlight .wrapper .container .right img {
-	height:80vh;
-	width: 450px;
+	height:95vh;
+	width: 100%;
 }
 #middle .wrapper .container{
 	height: 300px;
@@ -1004,12 +1081,18 @@ margin-left: 25%;
 	width: 90%;
 }
 #testimonial .wrapper .container .right h1 {
-	font-size: 28px;
-	margin-left: 10%;
+	font-size: 25px;
+	margin-left: 20%;
+	
+
+}
+#testimonial .wrapper .container .right ul li h2{
+	font-size: 30px;
 }
 #testimonial .wrapper .container .right p{
-	margin-left: 10%;
-	font-size: 16px;
+	margin-left: 20%;
+	font-size: 18px;
+	width: 50%;
 }
 #testimonial .wrapper .container .right ul li h2{
 	margin-right: 20%;
@@ -1047,9 +1130,51 @@ footer .wrapper ul li.item {
 footer .wrapper ul li.item {
 	margin-left: 10%;
 }
+footer .wrapper ul li{
+	width: 50%;
+}
  
 }
-
+@media all and (max-width:888px){
+	#spotlight .wrapper .container .left h1{
+	 font-size: 48px;
+	 line-height: 4rem;
+	}
+	}
+	@media all and (max-width:874px){
+		#spotlight .wrapper .container .left h1{
+		 font-size: 40px;
+		 line-height: 4rem;
+		 margin-top: 5px;
+		}
+		#spotlight .wrapper .container .right img{
+			
+		}
+		}
+		@media all and (max-width:874px){
+			#spotlight .wrapper .container .left h1{
+			 font-size: 40px;
+			 line-height: 4rem;
+			 margin-top: 5px;
+			}
+			#spotlight .wrapper .container .right img{
+				height: 80vh;
+				width: 98%;
+			}
+			#about .wrapper .container ul{
+				flex-wrap: wrap;
+				
+			}
+			#about .wrapper .container ul li{
+				margin-top: 20px;
+			}
+		}
+		@media all and (max-width:850px){
+			#middle .wrapper .container .button a{
+				font-size: 15px;
+			}
+		}
+		
 
 
 
@@ -1079,17 +1204,39 @@ footer .wrapper ul li.item {
 		display: block;
 	}
 	#testimonial .wrapper .container .left img {
-		/* width:50%; */
+		width:100%;
 		opacity: 0.5;
 	}
 	#testimonial .wrapper .container .right {
 		position: relative;
 		bottom: 380px;
-		left: 140px;
+		/* left: 140px; */
 		text-align: center;
 	}
+	#testimonial .wrapper .container .right ul li h2 {
+		margin-left: -50px;
+		
+	}
+	#testimonial .wrapper .container .right ul li h5{
+		margin-left: -50px;
+	}
+
 	#testimonial .wrapper .container .right p br{
 		display: none;
+	}
+	#testimonial .wrapper .container .right h1{
+		margin-right: 20%;
+		font-size: 35px;
+	}
+	#testimonial .wrapper .container .right {
+		/* width: 75%;
+	
+		 */
+	}
+	#testimonial .wrapper .container .right p {
+		
+		width: 80%;
+		
 	}
 	#Service .wrapper .container ul{
 		flex-wrap: wrap;
@@ -1167,6 +1314,14 @@ footer .wrapper ul li.item {
 	#testimonial .wrapper .container .left img{
 		width: 100%;
 	}
+	#testimonial .wrapper .container .right h1{
+		margin-right: 10px;
+		font-size: 28px;
+		margin-left: 10px;
+	}
+	#testimonial .wrapper .container .right p{
+		margin-left: 10px;
+	}
 	#middle .wrapper .container button{
 		margin-bottom: 2%;
 	}
@@ -1180,7 +1335,15 @@ footer .wrapper ul li.item {
 		width: 23%;
 	}
 	#testimonial{
-		height: 50vh;}
+		height: 50vh;
+	}
+	#testimonial .wrapper .container .right ul li h2{
+		font-size: 30px;
+	}
+	#testimonial .wrapper .container .right ul {
+		margin-left: 20%;
+	  }
+
 }
 @media all and (max-width:480px){
 	#home .wrapper header .container .right .container ul li a img{
@@ -1194,50 +1357,49 @@ footer .wrapper ul li.item {
 		margin-bottom: 5%;
 	}
 	#middle .wrapper .container button img{
-		margin-left: 58%;
+		margin-left: 62%;
 	}
 	#middle .wrapper .container button.two img{
-		margin-left: 72%;
+		margin-left: 70%;
 	}
 	#middle .wrapper .container button.one img{
-	
-}
-#testimonial .wrapper .container .left img{
-}
-#testimonial .wrapper .container .right ul li h2{
-font-size: 25px;
-}
-#testimonial .wrapper .container .right {
-bottom: 420px;
-left: 100px;
-}
+	margin-left: 55%;
+	}
+	#testimonial .wrapper .container .left img{
+	}
+	#testimonial .wrapper .container .right ul li h2{
+	font-size: 25px;
+	}
+	#testimonial .wrapper .container .right {
+	bottom: 420px;
+	}
 
-#residences .wrapper .container h1{
-	font-size: 30px;
-}
-#about .wrapper .container h1{
-	width: 80%;
-	font-size: 30px;
-}
-#accout .wrapper .container h1{
-	font-size: 35px;
-}
-#accout .wrapper .container ul li h4{
-	font-size: 12px;
-}
-#accout .wrapper .container .button button input{
-	font-size: 12px;
-}
-#accout .wrapper .container .button .button{
-	font-size: 12px;
-}
-footer .wrapper ul li p{
-	font-size: 16px;
-}
-footer .wrapper ul li{
-	width: 30%;
-}
-}
+	#residences .wrapper .container h1{
+		font-size: 30px;
+	}
+	#about .wrapper .container h1{
+		width: 80%;
+		font-size: 30px;
+	}
+	#accout .wrapper .container h1{
+		font-size: 35px;
+	}
+	#accout .wrapper .container ul li h4{
+		font-size: 12px;
+	}
+	#accout .wrapper .container .button button input{
+		font-size: 12px;
+	}
+	#accout .wrapper .container .button .button{
+		font-size: 12px;
+	}
+	footer .wrapper ul li p{
+		font-size: 16px;
+	}
+	footer .wrapper ul li{
+		width: 30%;
+	}
+	}
 
 @media all and (max-width:480px){
 	#home .wrapper header .container .right .container ul li a.button{
@@ -1256,6 +1418,9 @@ footer .wrapper ul li{
 	}
 	#testimonial{
 		height: 50vh;
+	}
+	#testimonial .wrapper .container .right ul li h5{
+		width: 70%;
 	}
 	#home #spotlight{
 		height: 70vh;
@@ -1318,19 +1483,71 @@ footer .wrapper ul li{
 		width: 100%;
 	}
 }
+    @media all and (max-width:418px){
+		#testimonial .wrapper .container .right h1{
+			width: 80%;
+		}
+		#testimonial .wrapper .container .right p{
+			width: 50%;
+			margin-left: 10%;
+		}
+		#testimonial .wrapper .container .right ul li h5{
+			width: 70%;
+		}
+		#testimonial .wrapper .container .right p{
+			width: 100%;
+			margin-left: -20px;
+		}
+		
+		
+	}
+	@media all and (max-width:404px){
+		
+		#center .wrapper .container h1{
+			padding-top: 30%;
+		}
+
+	}
+	@media all and (max-width:390px){
+		#about .wrapper .container ul li .top small {
+			margin: 0 ;
+			padding: 0;
+			font-size: 10px;
+		}
+		#about .wrapper .container ul li .top img.star{
+			margin: 0;
+			padding: 0;
+		}
+	}
 	@media all and (max-width:360px){
 		footer .wrapper ul li:last-child{
 			width: 100%;
 		}
 		#testimonial{
-			height: 70vh;
+			height: 80vh;
 		}
 		#testimonial .wrapper .container .right{
 			width: 100%;
-			left: 0px;
+			left: 50px;
 		}
+		#testimonial .wrapper .container .right p{
+			width: 90%;
+		}
+		
 		#testimonial .wrapper .container .right ul li h5{
 			font-size:10px ;
+			width: 90%;
+		}
+		#testimonial .wrapper .container .right ul li h1{
+			font-size: 30px;
+			
+		}
+		#testimonial .wrapper .container .right h1{
+			width: 70%;
+			margin-left: 20px;
+		}
+		#testimonial .wrapper .container .right p{
+			font-size: 15px;
 		}
 		#home #spotlight{
 			height: 70vh;
@@ -1338,6 +1555,29 @@ footer .wrapper ul li{
 		#accout .wrapper .container .button button{
 			width: 100%;
 		}
+		#middle .wrapper .container button img{
+			margin-left: 58%;
+		}
+		#middle .wrapper .container button.one img{
+			margin-left:53% ;
+		}
+		#center .wrapper .container h1{
+			padding-top: 0%;
+		}
+		#about .wrapper .container ul li .top small {
+			display: block;
+		}
+		#about .wrapper .container ul li .top img.star {
+			width: 35%;
+		}
+	}
+	@media all and (max-width:340px){
+		#residences .wrapper .container ul li .middle small {
+			font-size: 10px;
+		}
+		
+		
+
 	}
 
 	@media all and (max-width:320px){
@@ -1362,7 +1602,10 @@ footer .wrapper ul li{
 			margin-left: 80%;
 		}
 		#middle .wrapper .container button img{
-			margin-left: 40%;
+			margin-left: 48%;
+		}
+		#middle .wrapper .container button.one img{
+			margin-left: 35%;
 		}
 		#middle .wrapper .container button.two img{
 			margin-left: 62%;
