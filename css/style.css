@@ -351,12 +351,12 @@ display: flex;
 }
 
 #testimonial .wrapper .container .left img { 
-width: 130%;
+width: 100%;
 height: 450px;
 }
 
 #testimonial .wrapper .container .right { 
-width:51%;
+
 }
 
 #testimonial .wrapper .container .right h1 { 
@@ -364,14 +364,13 @@ font-size: 40px;
 font-weight: 800;
 color: #2b1b12;
 font-family:"montserratextrabold"; 
-margin-left: 40%;
+
 line-height: 1.2;
 }
 
 #testimonial .wrapper .container .right p { 
 color: #4f3527;
 font-size: 18px;
-margin-left: 40%;
 font-family:"montserratsemibold";
 margin-top: 5%;
 }
@@ -434,7 +433,7 @@ font-family:"montserratextrabold";
 	font-weight: 700;
 	color: #4f3527;
 	font-family:"montserratsemibold";
-	margin-top: 3%;
+	margin-top: 6%;
 	
 	
 }
@@ -453,17 +452,18 @@ margin-top: 8%;
 #Service .wrapper .container ul { 
 display: flex;
 justify-content: space-between;
+gap: 20px;
 }
 
-#Service .wrapper .container ul li { 
-width:18%;
-justify-content: space-between;
-background-color: #ddc7bb;
-padding: 35PX 10px 0 30PX;
-border-radius: 20PX;
-
-
-
+#Service .wrapper .container ul li {
+/* width: 275px;
+height: 268px; */
+padding: 18px;
+padding-left: 10px;
+border-radius: 18px;
+opacity: 0px;
+background: #DDC7BB;
+box-shadow: 0px 4px 30px 0px #2B1B121F;
 }
 
 #Service .wrapper .container ul li img { 
@@ -512,12 +512,16 @@ margin-top: 10%;
 #residences .wrapper .container ul { 
 width: 100%;
 display: flex;
+justify-content: space-between;
+align-items: center;
 }
 
 #residences .wrapper .container ul li { 
-background-color: #ddc7bb;
-margin-right: 10%;
-border-radius: 15px;
+width: 382px;
+border-radius: 18px;
+opacity: 0px;
+background: #DDC7BB;
+box-shadow: 0px 4px 30px 0px #2B1B121F;
 padding-bottom: 20px;
 }
 
@@ -542,7 +546,7 @@ align-items: center;
 #residences .wrapper .container ul li h5 img { 
 margin-bottom: 10px;
 margin-top: 10px;
-
+margin-right: 8px;
 }
 
 #residences .wrapper .container ul li .middle { 
@@ -566,12 +570,14 @@ align-items: center;
 	text-align: center;
 	background-color: #fbf5f1;
 	border-radius: 6px;
+	margin-right: 10px;
 }
 
 #residences .wrapper .container ul li .bottom { 
 margin-left:-22% ;
 display: flex;
 justify-content:space-evenly;
+
 
 }
 
@@ -581,18 +587,19 @@ justify-content:space-evenly;
 	font-size: 22px;
 	font-weight: 700;
 	color: #4f3527;
+	font-family:"montserratregular" ;
+	margin-top: 10px;
 
 
 }
 
 #residences .wrapper .container ul li .bottom small .button { 
-
 	background-color: #2b1b12;
-	padding: 10px 12px;
-	font-size: 18px;
+	padding: 12px 15px;
+	font-size: 14px;
 	font-family:"montserratsemibold";
-	
 	border-radius: 8px;
+	margin-right: 3px;
 }
 #about { 
 margin-top: 10%;
@@ -604,7 +611,7 @@ background-color: #fbf5f1;
 }
 
 #about .wrapper .container { 
-width: 95%;
+/* width: 95%; */
 padding-bottom: 5%;
 }
 
@@ -615,8 +622,8 @@ color: #2b1b12;
 text-align: center;
 font-family:"montserratextrabold" ;
 margin-bottom: 5%;
-width: 30%;
-margin-left: 30%;
+
+
 padding-top: 5%;
 
 
@@ -624,13 +631,22 @@ padding-top: 5%;
 
 #about .wrapper .container ul { 
 display: flex;
+justify-content: space-between;
+gap: 30px;
 }
 
 #about .wrapper .container ul li { 
-width: 80%;
-background-color: #ddc7bb;
-margin-right: 10%;
-border-radius: 15px;
+/* width: 382px;
+height: 430px; */
+/* top: 3319px;
+left: 104px; */
+
+border-radius: 18px;
+opacity: 0px;
+background: #DDC7BB;
+padding-bottom: 20px;
+
+
 }
 
 #about .wrapper .container ul li .x { 
@@ -709,7 +725,7 @@ color: #4f3527;
 	background-color: #2b1b12;
 	padding: 10px;
 	border-radius: 50%;
-	margin-right: 5%;
+	margin-right: 20px;
 	width: 50px;
     height: 50px;
 }
@@ -757,7 +773,7 @@ color: #4f3527;
 #accout .wrapper .container .button { 
 	display: flex;
 	justify-content: center;
-	margin-right: 50px;
+	
 }
 
 #accout .wrapper .container .button button { 
@@ -765,8 +781,8 @@ color: #4f3527;
 	font-size: 18px;
 	font-weight: 600;
 	margin-right: 12px;
-	width: 22%;
-	padding: 8px 18px 8px 0;
+	
+	padding: 10px 20px;
 	border-radius: 4px;
 }
 
@@ -783,7 +799,7 @@ color: #4f3527;
 }
 
 #accout .wrapper .container .button .button { 
-	padding: 8px 20px ;
+	padding:  20px ;
 	background: #2b1b12;
 	font-size: 18px;
 	font-weight: 600;
@@ -794,7 +810,7 @@ color: #4f3527;
 
 footer { 
 	background: #ddc7bb;
-	padding: 3% 0;
+	padding: 5% 0;
 }
 
 footer .wrapper { 
@@ -849,9 +865,7 @@ footer .wrapper  ul li h5 img{
 	
 }
 @media all and (max-width:1440px){
-	#testimonial .wrapper .container .right{
-		width: 80%;
-	}
+	
 	#middle .wrapper .container{
 		width: 90%;
 	}
@@ -899,10 +913,8 @@ footer .wrapper  ul li h5 img{
 }
 #testimonial .wrapper .container .right h1 {
     font-size: 32px;
-	margin-left: 25%;
 }
 #testimonial .wrapper .container .right p{
-margin-left: 25%;
 }
 #testimonial .wrapper .container .right ul{
 	margin-left: 20%;
@@ -931,20 +943,18 @@ margin-left: 25%;
 }
 
 #about .wrapper .container h1 {
-	width: 40%;
+	
 }
 #about .wrapper .container ul{
-
 }
 #about .wrapper .container ul li{
-	margin-right: 50px;
+	width: 350px;
 }
 #about .wrapper .container .item small img{
-	margin-left: 3%;
+	margin-left: 0;
 	margin-right: 0;
 }
 #accout .wrapper .container .button button{
-	width: 30%;
 }
 }
 @media all and (max-width:1196px){
@@ -974,6 +984,20 @@ margin-left: 25%;
 		width: 50%;
 	}
 }
+@media all and (max-width:1146px){
+	#about .wrapper .container ul li .top img.star {
+		margin: 0;
+		width: 10px;
+	}
+	#about .wrapper .container ul li .top small{
+		margin: px;
+		font-size: 10px;
+	}
+	#about .wrapper .container ul li .top span h4{
+		font-size: 16px;
+	}
+
+}
 
 
 @media all and (max-width:1380px){
@@ -999,7 +1023,7 @@ margin-left: 25%;
 }
 	
 	#accout .wrapper .container .button button{
-          width: 30%;
+         
 	}
 }
      @media all and (max-width:1080px){
@@ -1032,13 +1056,6 @@ margin-left: 25%;
 		}
 	 }
 
-
-
-	 @media all and (max-width:1282px){
-		#testimonial .wrapper .container .right {
-			width: 100%;
-		}
-	 }
 
 
 
@@ -1082,7 +1099,6 @@ margin-left: 25%;
 }
 #testimonial .wrapper .container .right h1 {
 	font-size: 25px;
-	margin-left: 20%;
 	
 
 }
@@ -1090,9 +1106,7 @@ margin-left: 25%;
 	font-size: 30px;
 }
 #testimonial .wrapper .container .right p{
-	margin-left: 20%;
 	font-size: 18px;
-	width: 50%;
 }
 #testimonial .wrapper .container .right ul li h2{
 	margin-right: 20%;
@@ -1108,11 +1122,17 @@ margin-left: 25%;
 #residences .wrapper .container ul li .bottom small .button {
 	font-size: 14px;
 }
+#residences .wrapper .container ul {
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 20px;
+}
 #about .wrapper .container h1{
-	width: 50%;
+	
+	
 }
 #about .wrapper .container ul{
-	width: 105%;
+	width: 100%;
 	
 }
 #about .wrapper .container ul li{
@@ -1122,7 +1142,7 @@ margin-left: 25%;
 	padding-right: 0;
 }
 #accout .wrapper .container .button button{
-	width: 40%;
+	
 }
 footer .wrapper ul li.item {
 	margin-right: 10%;
@@ -1163,6 +1183,7 @@ footer .wrapper ul li{
 			}
 			#about .wrapper .container ul{
 				flex-wrap: wrap;
+				justify-content: center;
 				
 			}
 			#about .wrapper .container ul li{
@@ -1225,17 +1246,12 @@ footer .wrapper ul li{
 		display: none;
 	}
 	#testimonial .wrapper .container .right h1{
-		margin-right: 20%;
 		font-size: 35px;
 	}
 	#testimonial .wrapper .container .right {
-		/* width: 75%;
-	
-		 */
+		
 	}
 	#testimonial .wrapper .container .right p {
-		
-		width: 80%;
 		
 	}
 	#Service .wrapper .container ul{
@@ -1254,11 +1270,10 @@ footer .wrapper ul li{
 		width: 70%;
 		margin-left: 10%;
 		margin-bottom: 5%;
+		padding-bottom: 20px;
 	}
-	#about .wrapper .container h1{
-		width: 70%;
-		margin-left: 10%;
-	}
+	
+	
 	#about .wrapper .container ul  {
 		flex-wrap: wrap;
 		margin-bottom: 5%;
@@ -1267,7 +1282,7 @@ footer .wrapper ul li{
 		margin-bottom: 5%;
 	}
 	#accout .wrapper .container .button button{
-		width: 50%;
+		
 	}
 	footer .wrapper ul{
 		flex-wrap: wrap;
@@ -1315,12 +1330,9 @@ footer .wrapper ul li{
 		width: 100%;
 	}
 	#testimonial .wrapper .container .right h1{
-		margin-right: 10px;
 		font-size: 28px;
-		margin-left: 10px;
 	}
 	#testimonial .wrapper .container .right p{
-		margin-left: 10px;
 	}
 	#middle .wrapper .container button{
 		margin-bottom: 2%;
@@ -1329,7 +1341,7 @@ footer .wrapper ul li{
 		height: 350px;
 	}
 	#accout .wrapper .container .button button{
-		width: 60%;
+	
 	}
 	footer .wrapper ul li{
 		width: 23%;
@@ -1343,8 +1355,19 @@ footer .wrapper ul li{
 	#testimonial .wrapper .container .right ul {
 		margin-left: 20%;
 	  }
+	  #residences .wrapper .container h1{
+		font-size: 30px;
+	  }
+	  #residences .wrapper .container h1{
+		font-size: 25px;
+	  }
+	  #accout .wrapper .container h1{
+		font-size: 25px;
+	  }
 
 }
+
+
 @media all and (max-width:480px){
 	#home .wrapper header .container .right .container ul li a img{
 		display: none;
@@ -1388,7 +1411,8 @@ footer .wrapper ul li{
 		font-size: 12px;
 	}
 	#accout .wrapper .container .button button input{
-		font-size: 12px;
+		font-size: 15px;
+		padding: 10px;
 	}
 	#accout .wrapper .container .button .button{
 		font-size: 12px;
@@ -1398,6 +1422,12 @@ footer .wrapper ul li{
 	}
 	footer .wrapper ul li{
 		width: 30%;
+	}
+	#accout .wrapper .container .button .button{
+		
+	}
+	#home .wrapper header .right{
+		display: none;
 	}
 	}
 
@@ -1457,13 +1487,13 @@ footer .wrapper ul li{
 	}
 	#accout .wrapper .container .button{
 		flex-wrap: wrap;
-		margin-bottom: 2%;
+		
 	}
 	#accout .wrapper .container .button .button{
-		margin-top: 5%;
+	
 	}
 	#accout .wrapper .container .button button input{
-		font-size: 10px;
+		
 	}
 	#accout .wrapper .container ul li h4{
 		font-size: 18px;
@@ -1485,18 +1515,19 @@ footer .wrapper ul li{
 }
     @media all and (max-width:418px){
 		#testimonial .wrapper .container .right h1{
-			width: 80%;
 		}
 		#testimonial .wrapper .container .right p{
-			width: 50%;
-			margin-left: 10%;
+
 		}
 		#testimonial .wrapper .container .right ul li h5{
 			width: 70%;
 		}
 		#testimonial .wrapper .container .right p{
-			width: 100%;
-			margin-left: -20px;
+
+		}
+		#accout .wrapper .container .button {
+			gap: 10px;
+	
 		}
 		
 		
@@ -1527,11 +1558,10 @@ footer .wrapper ul li{
 			height: 80vh;
 		}
 		#testimonial .wrapper .container .right{
-			width: 100%;
-			left: 50px;
+
+			
 		}
 		#testimonial .wrapper .container .right p{
-			width: 90%;
 		}
 		
 		#testimonial .wrapper .container .right ul li h5{
@@ -1543,8 +1573,7 @@ footer .wrapper ul li{
 			
 		}
 		#testimonial .wrapper .container .right h1{
-			width: 70%;
-			margin-left: 20px;
+
 		}
 		#testimonial .wrapper .container .right p{
 			font-size: 15px;
@@ -1553,7 +1582,7 @@ footer .wrapper ul li{
 			height: 70vh;
 		}
 		#accout .wrapper .container .button button{
-			width: 100%;
+			/* width: 100%; */
 		}
 		#middle .wrapper .container button img{
 			margin-left: 58%;
@@ -1569,6 +1598,9 @@ footer .wrapper ul li{
 		}
 		#about .wrapper .container ul li .top img.star {
 			width: 35%;
+		}
+		#accout .wrapper .container h1{
+			font-size: 20px;
 		}
 	}
 	@media all and (max-width:340px){
@@ -1617,11 +1649,3 @@ footer .wrapper ul li{
 		width: 100%;
 	}
 	}
-
-
-
-
-
-
-
-
