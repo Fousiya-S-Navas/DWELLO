@@ -1049,11 +1049,8 @@ footer .wrapper  ul li h5 img{
 
 
 @media all and (max-width:980px){
-	#home .wrapper header .container .middle .item ul li.menu{
-		display: block;
-		background: #ddc7bb;
-		font-family: 'montserratsemibold';
-}
+
+
 #home .wrapper header .container .right .container ul li{
 	margin-left: 10px;
 }
@@ -1208,16 +1205,15 @@ footer .wrapper ul li{
 		margin-left: 47%;
 	}
 	#testimonial .wrapper .container {
-		display: block;
+		flex-wrap: wrap;
+		
 	}
 	#testimonial .wrapper .container .left img {
 		width:100%;
-		opacity: 0.5;
+		
 	}
 	#testimonial .wrapper .container .right {
-		position: relative;
-		bottom: 380px;
-		/* left: 140px; */
+		
 		text-align: center;
 	}
 	#testimonial .wrapper .container .right ul li h2 {
@@ -1281,13 +1277,12 @@ footer .wrapper ul li{
 		
 		
 	}
-	#testimonial{
-		height: 60vh;}
+	}
 	
 
 	
 	
-}
+
 
 
 
@@ -1332,9 +1327,7 @@ footer .wrapper ul li{
 	footer .wrapper ul li{
 		width: 23%;
 	}
-	#testimonial{
-		height: 50vh;
-	}
+	
 	#testimonial .wrapper .container .right ul li h2{
 		font-size: 30px;
 	}
@@ -1432,9 +1425,7 @@ footer .wrapper ul li{
 		font-size: 16px;
 		margin-bottom: 30%;
 	}
-	#testimonial{
-		height: 50vh;
-	}
+	
 	#testimonial .wrapper .container .right ul li h5{
 		width: 70%;
 	}
@@ -1540,9 +1531,7 @@ footer .wrapper ul li{
 		footer .wrapper ul li:last-child{
 			width: 100%;
 		}
-		#testimonial{
-			height: 80vh;
-		}
+		
 		#testimonial .wrapper .container .right{
 
 			
